@@ -1,0 +1,407 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.41f1 (7c19dc9acfda) revision 8133084'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 7103 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+E:\Programs\unity\2020.3.41f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/repos/Ferma
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49200
+Successfully changed project path to: D:/repos/Ferma
+D:/repos/Ferma
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 150.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.41f1 (7c19dc9acfda)
+[Subsystems] Discovering subsystems at path E:/Programs/unity/2020.3.41f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/repos/Ferma/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15d8)
+    Vendor:   
+    VRAM:     3551 MB
+    Driver:   26.20.11030.22001
+Initialize mono
+Mono path[0] = 'E:/Programs/unity/2020.3.41f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Programs/unity/2020.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Programs/unity/2020.3.41f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Programs/unity/2020.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001846 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 154.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Domain Reload Profiling:
+	ReloadAssembly (921ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (754ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (355ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (154ms)
+				BeforeProcessingInitializeOnLoad (25ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003509 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 167.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.593 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2594ms)
+		BeginReloadAssembly (233ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (2274ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (537ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (221ms)
+			SetupLoadedEditorAssemblies (1190ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (168ms)
+				BeforeProcessingInitializeOnLoad (229ms)
+				ProcessInitializeOnLoadAttributes (540ms)
+				ProcessInitializeOnLoadMethodAttributes (244ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5028 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 283.7 MB.
+System memory in use after: 284.2 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 5489.
+Total: 7.044500 ms (FindLiveObjects: 0.611700 ms CreateObjectMapping: 0.182400 ms MarkObjects: 6.119800 ms  DeleteObjects: 0.128400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_AF08_Leaves01_su.mat
+  artifactKey: Guid(f1dbfc614b2b94a4db1b150896f0f06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_AF08_Leaves01_su.mat using Guid(f1dbfc614b2b94a4db1b150896f0f06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Platform Android with graphics API OpenGLES3 is not supported with HDRP, use the Vulkan graphics API instead.
+Change the platform/device to a compatible one or remove incompatible graphics APIs.
+0x00007ff71405f11c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff714066719 (Unity) StackWalker::ShowCallstack
+0x00007ff714dfcdac (Unity) GetStacktrace
+0x00007ff71586b897 (Unity) DebugStringToFile
+0x00007ff7141e22ba (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x000002dec48b84c8 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x000002dec48b834b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x000002dec48b77ce (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x000002dec48b746a (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x000002dec48b6ff3 (Mono JIT Code) [HDUtils.cs:1146] UnityEngine.Rendering.HighDefinition.HDUtils:DisplayMessageNotification (string) 
+0x000002dec48b40e3 (Mono JIT Code) [HDRenderPipeline.cs:946] UnityEngine.Rendering.HighDefinition.HDRenderPipeline:CheckAPIValidity () 
+0x000002dec485c57b (Mono JIT Code) [HDRenderPipeline.cs:417] UnityEngine.Rendering.HighDefinition.HDRenderPipeline:.ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset,UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) 
+0x000002dec4834213 (Mono JIT Code) [HDRenderPipelineAsset.cs:44] UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:CreatePipeline () 
+0x000002dec4833ca9 (Mono JIT Code) UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+0x000002dec48335cb (Mono JIT Code) UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+0x000002dec4832753 (Mono JIT Code) UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+0x000002dec4832fd4 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object_intptr_object_AtomicSafetyHandle (object,intptr,intptr,intptr)
+0x00007ffe523100e0 (mono-2.0-bdwgc) [mini-runtime.c:2849] mono_jit_runtime_invoke 
+0x00007ffe52292ac2 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
+0x00007ffe5229bb1f (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
+0x00007ff713fa33a4 (Unity) scripting_method_invoke
+0x00007ff713f9e4a1 (Unity) ScriptingInvocation::Invoke
+0x00007ff713c33ad2 (Unity) ScriptableRenderContext::ExtractAndExecuteRenderPipeline
+0x00007ff713a5b496 (Unity) Camera::CustomRenderWithPipeline
+0x00007ff713a70386 (Unity) Camera::StandaloneCustomRender
+0x00007ff713a705d8 (Unity) Camera::StandaloneRender
+0x00007ff713a67788 (Unity) CameraScripting::Render
+0x00007ff71416f054 (Unity) Camera_CUSTOM_Render
+0x000002dec483254b (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Camera:Render (UnityEngine.Camera)
+0x000002dec483146b (Mono JIT Code) UnityEditor.PreviewRenderUtility:Render (bool,bool)
+0x000002dec482bd0b (Mono JIT Code) UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+0x000002dec480452b (Mono JIT Code) UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+0x000002dec3819d74 (Mono JIT Code) UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+0x000002dec381a090 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_object_object_object (object,intptr,intptr,intptr)
+0x00007ffe523100e0 (mono-2.0-bdwgc) [mini-runtime.c:2849] mono_jit_runtime_invoke 
+0x00007ffe52292ac2 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
+0x00007ffe5229bb1f (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
+0x00007ff713fa33a4 (Unity) scripting_method_invoke
+0x00007ff713f9e4a1 (Unity) ScriptingInvocation::Invoke
+0x00007ff714e88716 (Unity) MonoCreateAssetPreview
+0x00007ff714e8a59e (Unity) WriteAssetPreviewToFile
+0x00007ff714e8ad02 (Unity) WritePreviews
+0x00007ff714e86891 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff714f2a4a3 (Unity) ImportToObjects
+0x00007ff714f29478 (Unity) ImportAsset
+0x00007ff714ec2288 (Unity) AssetImportWorker::Import
+0x00007ff714ee7a5c (Unity) <lambda_6c894734dbee50c93f7912c8ad287316>::operator()
+0x00007ff714f777c2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff714f63662 (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff714f65574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff714f75aff (Unity) IOService::Run
+0x00007ff714f117cb (Unity) RunAssetImportWorkerClientV2
+0x00007ff714f11820 (Unity) RunAssetImporterV2
+0x00007ff7149859c8 (Unity) Application::InitializeProject
+0x00007ff714e07132 (Unity) WinMain
+0x00007ff7164d3dfe (Unity) __scrt_common_main_seh
+0x00007ffec47954e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffec580485b (ntdll) RtlUserThreadStart
+
+ -> (artifact id: '73d24ed686a82e67aa1d743d517c70b5') in 0.656635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_OC56_Flowers01.mat
+  artifactKey: Guid(2b558ccbc8efba841a6cff5aaf229ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_OC56_Flowers01.mat using Guid(2b558ccbc8efba841a6cff5aaf229ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0eeeea7b1befa0172766367d71964c') in 0.157502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_JA14_Bark01.mat
+  artifactKey: Guid(f73286c920d396e43940a2e3766799ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_JA14_Bark01.mat using Guid(f73286c920d396e43940a2e3766799ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a41c36abe7a347a3663e399b62eee0') in 0.040001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_OC56_Leaves01.mat
+  artifactKey: Guid(a3ae1ff24fb9ef94e9cc342c71006da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_OC56_Leaves01.mat using Guid(a3ae1ff24fb9ef94e9cc342c71006da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcaae413390ddbe000e877b1a9d643e8') in 0.309373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_CL04_Leaves01_su.mat
+  artifactKey: Guid(65670a97de6166742b3f5ec5d0792bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_CL04_Leaves01_su.mat using Guid(65670a97de6166742b3f5ec5d0792bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5fb9e0601f56a0791ca7d5dcf766f2') in 0.078115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_AF08_Bark01.mat
+  artifactKey: Guid(0f132f75a238a1449a6ef5b5b4de52e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_AF08_Bark01.mat using Guid(0f132f75a238a1449a6ef5b5b4de52e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717e96c3e7ef21b464be62fe313f99d2') in 0.109428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
+  artifactKey: Guid(2cb1097bc93c0c44f9740a48e97add6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(2cb1097bc93c0c44f9740a48e97add6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3eff3480dcf06243bbdf9714c6b819') in 0.016478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset
+  artifactKey: Guid(3dc94ccbf7c04944e8343b424d43aa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset using Guid(3dc94ccbf7c04944e8343b424d43aa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087c03c94eb9d55bb5763a0d95072a12') in 0.005544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_BS09_Leaves01_su.mat
+  artifactKey: Guid(62615e939b76b0f4abca16f1fae06083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_BS09_Leaves01_su.mat using Guid(62615e939b76b0f4abca16f1fae06083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ad5611ee66a70e6394c9b2b2d26a91') in 0.155329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_JA14_Leaves01_su.mat
+  artifactKey: Guid(c807d990c25bdbf4fac7ebe039309b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_JA14_Leaves01_su.mat using Guid(c807d990c25bdbf4fac7ebe039309b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4347953de80b1ca8297affca877f486') in 0.217980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/HDRPDefaultResources/DefaultLookDevProfile.asset
+  artifactKey: Guid(763fcea1c609e5146ab4b35dd742c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(763fcea1c609e5146ab4b35dd742c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006265 seconds  code(4) message(Build asset version error: assets/hdrpdefaultresources/defaultlookdevprofile.asset in SourceAssetDB has modification time of '2022-10-13T13:04:34Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff71405f11c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff714066719 (Unity) StackWalker::ShowCallstack
+0x00007ff714dfcdac (Unity) GetStacktrace
+0x00007ff714f50217 (Unity) GetAssetHashAndValidate
+0x00007ff714f4b46e (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff714f492a4 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff714f23cad (Unity) CreateAssetVersionBuilder
+0x00007ff714f2a6d5 (Unity) ImportToObjects
+0x00007ff714f29478 (Unity) ImportAsset
+0x00007ff714ec2288 (Unity) AssetImportWorker::Import
+0x00007ff714ee7a5c (Unity) <lambda_6c894734dbee50c93f7912c8ad287316>::operator()
+0x00007ff714f777c2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff714f63662 (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff714f65574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff714f75aff (Unity) IOService::Run
+0x00007ff714f117cb (Unity) RunAssetImportWorkerClientV2
+0x00007ff714f11820 (Unity) RunAssetImporterV2
+0x00007ff7149859c8 (Unity) Application::InitializeProject
+0x00007ff714e07132 (Unity) WinMain
+0x00007ff7164d3dfe (Unity) __scrt_common_main_seh
+0x00007ffec47954e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffec580485b (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/hdrpdefaultresources/defaultlookdevprofile.asset in SourceAssetDB has modification time of '2022-10-13T13:04:34Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff71405f11c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff714066719 (Unity) StackWalker::ShowCallstack
+0x00007ff714dfcdac (Unity) GetStacktrace
+0x00007ff714f50217 (Unity) GetAssetHashAndValidate
+0x00007ff714f4b46e (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff714f492a4 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff714f23cad (Unity) CreateAssetVersionBuilder
+0x00007ff714f2a6d5 (Unity) ImportToObjects
+0x00007ff714f29478 (Unity) ImportAsset
+0x00007ff714ec2288 (Unity) AssetImportWorker::Import
+0x00007ff714ee7a5c (Unity) <lambda_6c894734dbee50c93f7912c8ad287316>::operator()
+0x00007ff714f777c2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff714f63662 (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff714f65574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff714f75aff (Unity) IOService::Run
+0x00007ff714f117cb (Unity) RunAssetImportWorkerClientV2
+0x00007ff714f11820 (Unity) RunAssetImporterV2
+0x00007ff7149859c8 (Unity) Application::InitializeProject
+0x00007ff714e07132 (Unity) WinMain
+0x00007ff7164d3dfe (Unity) __scrt_common_main_seh
+0x00007ffec47954e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffec580485b (ntdll) RtlUserThreadStart
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_BS09_Bark01.mat
+  artifactKey: Guid(bcc4e9b3c1702f449a10bf63e55a5c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_BS09_Bark01.mat using Guid(bcc4e9b3c1702f449a10bf63e55a5c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60b3f08334e5a2d2733d67bf676458d') in 0.037803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_EU01_Bark01.mat
+  artifactKey: Guid(57f1d19ea941a284fb36d9d99b624c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_EU01_Bark01.mat using Guid(57f1d19ea941a284fb36d9d99b624c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74dd4766cc1c3c4f2291f04941d702f5') in 0.093751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.169556 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(26124ba3d1187af4f8b6498362d5efca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(26124ba3d1187af4f8b6498362d5efca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02d2dd660b6ea819f4dbdab2214101d') in 0.119257 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.2 MB.
+System memory in use after: 172.4 MB.
+
+Unloading 207 unused Assets to reduce memory usage. Loaded Objects now: 5355.
+Total: 9.546300 ms (FindLiveObjects: 0.672300 ms CreateObjectMapping: 0.326200 ms MarkObjects: 6.254700 ms  DeleteObjects: 2.291000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003520 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 145.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.289 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1289ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1054ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (461ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (146ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4738 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 247.9 MB.
+System memory in use after: 248.2 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 5353.
+Total: 5.768800 ms (FindLiveObjects: 0.550300 ms CreateObjectMapping: 0.162300 ms MarkObjects: 4.941300 ms  DeleteObjects: 0.112700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
